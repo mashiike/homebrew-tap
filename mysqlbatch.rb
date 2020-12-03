@@ -1,8 +1,8 @@
 class Mysqlbatch < Formula
-  version '0.0.0'
+  version '0.1.1'
   homepage 'https://github.com/mashiike/mysqlbatch'
-  url "https://github.com/mashiike/mysqlbatch/releases/download/v0.0.0/mysqlbatch_v0.0.0_darwin_amd64.zip"
-  sha256 '19fe01a44d425eff5ec580d31e45ad0dec7afd32ac490977b8d689c439642a40'
+  url "https://github.com/mashiike/mysqlbatch/releases/download/v0.1.1/mysqlbatch_v0.1.1_darwin_amd64.zip"
+  sha256 'e5dd33499e2a7de71efc9dfb6a1c85010bce175049b7c85104c3774c7f5f0e36'
   head 'https://github.com/mashiike/mysqlbatch.git'
 
   head do
