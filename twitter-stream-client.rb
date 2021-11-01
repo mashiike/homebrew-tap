@@ -1,8 +1,8 @@
 class TwitterStreamClient < Formula
-  version '0.0.1'
+  version '0.0.6'
   homepage 'https://github.com/mashiike/twitter-stream-client'
-  url "https://github.com/mashiike/twitter-stream-client/releases/download/v0.0.1/twitter-stream-client-v0.0.1-darwin-amd64"
-  sha256 '56d68108d5f2507af73dc2cc192169fa7b3db64d14c979d8363bfe3625c1cdc1'
+  url "https://github.com/mashiike/twitter-stream-client/releases/download/v0.0.6/twitter-stream-client-v0.0.6-darwin-amd64.zip"
+  sha256 'c224d896aa271177ea7cf12bcb79d5d938ee2ba0da58978fb4731239b45a21a7'
   head 'https://github.com/mashiike/twitter-stream-client.git'
 
   head do
