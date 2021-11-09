@@ -1,13 +1,13 @@
 class Setddblock < Formula
-  version '0.3.1'
+  version '0.3.2'
   homepage 'https://github.com/mashiike/setddblock'
   if OS.mac?
-    url "https://github.com/mashiike/setddblock/releases/download/v0.3.1/setddblock_0.3.1_darwin_amd64.tar.gz"
-    sha256 '9fa4e2907a6dc3a656b9203a72753f8987932f52fad292d2fe888697bb5dedcf'
+    url "https://github.com/mashiike/setddblock/releases/download/v0.3.2/setddblock_0.3.2_darwin_amd64.tar.gz"
+    sha256 '997565700f6e1f8e7fae622bfba983e769ea1e8b97c8e4872f52bf7b917585e4'
   end
   if OS.linux?
-    url "https://github.com/mashiike/setddblock/releases/download/v0.3.1/setddblock_0.3.1_linux_amd64.tar.gz"
-    sha256 '46bed317d12fc0a0f603ed349f760c88af1cc99f24d1caf58ff88e965c0fdfbf'
+    url "https://github.com/mashiike/setddblock/releases/download/v0.3.2/setddblock_0.3.2_linux_amd64.tar.gz"
+    sha256 '83e0da06af8d6a3db3f0d89520e5ec30d291d484d6c85b19168590b8beb10208'
   end
   head 'https://github.com/mashiike/setddblock.git'
 
