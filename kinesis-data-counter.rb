@@ -1,13 +1,13 @@
 class KinesisDataCounter < Formula
-  version '0.1.0'
+  version '0.1.4'
   homepage 'https://github.com/mashiike/kinesis-data-counter'
   if OS.mac?
-    url "https://github.com/mashiike/kinesis-data-counter/releases/download/v0.1.0/kinesis-data-counter_0.1.0_darwin_amd64.tar.gz"
-    sha256 '97601f30d6437c00ee4ab3c1e4814dac1617c2f0e0a91a30565ff2d7537a2ef0'
+    url "https://github.com/mashiike/kinesis-data-counter/releases/download/v0.1.4/kinesis-data-counter_0.1.4_darwin_amd64.tar.gz"
+    sha256 '73fa9bc3836e08bd61f1ac34067a779f7693ff3bb534b569a29105203926f194'
   end
   if OS.linux?
-    url "https://github.com/mashiike/kinesis-data-counter/releases/download/v0.1.0/kinesis-data-counter_0.1.0_linux_amd64.tar.gz"
-    sha256 'b0a2f6581327d77c68976c4fbaaabf5236d518192dfd35895edd962b8f47340f'
+    url "https://github.com/mashiike/kinesis-data-counter/releases/download/v0.1.4/kinesis-data-counter_0.1.4_linux_amd64.tar.gz"
+    sha256 '9e9483619f22a0721532b2e80a238a970d57cbd34233b58283f7ae32615abcf6'
   end
   head 'https://github.com/mashiike/kinesis-data-counter.git'
 
