@@ -1,8 +1,8 @@
 class Shimesaba < Formula
-  version '0.6.1'
+  version '0.6.2'
   homepage 'https://github.com/mashiike/shimesaba'
-  url "https://github.com/mashiike/shimesaba/releases/download/v0.6.1/shimesaba_0.6.1_darwin_amd64.tar.gz"
-  sha256 '07a612aa7e4b2ce8bce325175d844d058c432151f0758a0ca91815504547bbc8'
+  url "https://github.com/mashiike/shimesaba/releases/download/v0.6.2/shimesaba_0.6.2_darwin_amd64.tar.gz"
+  sha256 '831f0483e06cbadcd96c67ccf56da53242e70eea806c5a04f442f3bbe757ced2'
   head 'https://github.com/mashiike/shimesaba.git'
 
   head do
