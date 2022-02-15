@@ -1,13 +1,13 @@
 class Stefunny < Formula
-  version '0.4.0'
+  version '0.4.1'
   homepage 'https://github.com/mashiike/stefunny'
   if OS.mac?
-    url "https://github.com/mashiike/stefunny/releases/download/v0.4.0/stefunny_0.4.0_darwin_amd64.tar.gz"
-    sha256 'cf503eb285985369bdc0ef69b930e9d2097b71bd7b27c18615e51300fea28c05'
+    url "https://github.com/mashiike/stefunny/releases/download/v0.4.1/stefunny_0.4.1_darwin_amd64.tar.gz"
+    sha256 '2f98edc980df4f2e3b29488fe9e705407a8ea8836e8a4975ec090d46953b1561'
   end
   if OS.linux?
-    url "https://github.com/mashiike/stefunny/releases/download/v0.4.0/stefunny_0.4.0_linux_amd64.tar.gz"
-    sha256 '70520c1354632755ef454121374ecf832f9c29205c82c92348ab0d96a2cff602'
+    url "https://github.com/mashiike/stefunny/releases/download/v0.4.1/stefunny_0.4.1_linux_amd64.tar.gz"
+    sha256 '1dc97591047f12ed0263eef0245a51fe340554084949ee34a4f31d5ed1675c0c'
   end
   head 'https://github.com/mashiike/stefunny.git'
 
