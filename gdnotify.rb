@@ -1,13 +1,13 @@
 class Gdnotify < Formula
-  version '0.1.1'
+  version '0.1.2'
   homepage 'https://github.com/mashiike/gdnotify'
   if OS.mac?
-    url "https://github.com/mashiike/gdnotify/releases/download/v0.1.1/gdnotify_0.1.1_darwin_amd64.tar.gz"
-    sha256 'aef0c047b23d6b89e9e601cbc2a77976b13d245428eb24678ea4c88fdd441e1e'
+    url "https://github.com/mashiike/gdnotify/releases/download/v0.1.2/gdnotify_0.1.2_darwin_amd64.tar.gz"
+    sha256 '43047f18fe8a5ea4ffc79765f43962b602ee672106f9c252560f263850eddf86'
   end
   if OS.linux?
-    url "https://github.com/mashiike/gdnotify/releases/download/v0.1.1/gdnotify_0.1.1_linux_amd64.tar.gz"
-    sha256 '5b615332be47e5b48c3bc2f00f76b001c51c91b8177b484c05d899fc28743f7e'
+    url "https://github.com/mashiike/gdnotify/releases/download/v0.1.2/gdnotify_0.1.2_linux_amd64.tar.gz"
+    sha256 '7e407c98f3884c39d44f9cb68e4aa07ed36bb367670fc548d6a351a298b0dc34'
   end
   head 'https://github.com/mashiike/gdnotify.git'
 
