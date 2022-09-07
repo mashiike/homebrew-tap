@@ -1,13 +1,13 @@
 class Shimesaba < Formula
-  version '1.2.0'
+  version '1.2.1'
   homepage 'https://github.com/mashiike/shimesaba'
   if OS.mac?
-    url "https://github.com/mashiike/shimesaba/releases/download/v1.2.0/shimesaba_1.2.0_darwin_amd64.tar.gz"
-    sha256 'be6942bb3fd153a1a017700c69fc20102ff929727a4ddd9091ad13b7cfcd5be2'
+    url "https://github.com/mashiike/shimesaba/releases/download/v1.2.1/shimesaba_1.2.1_darwin_amd64.tar.gz"
+    sha256 '57c3c9e1bfdec363ebabeb8a3d41cdf14fa96f3f93239f3c22b4a467f0443e9b'
   end
   if OS.linux?
-    url "https://github.com/mashiike/shimesaba/releases/download/v1.2.0/shimesaba_1.2.0_linux_amd64.tar.gz"
-    sha256 '89d76d784c0146c1054aececeacf41349ba5b07bea656671baff5abacfe73faa'
+    url "https://github.com/mashiike/shimesaba/releases/download/v1.2.1/shimesaba_1.2.1_linux_amd64.tar.gz"
+    sha256 '5193ee36df055035267f2c84aa57d1142dd0176ba2e6b613e71616a6b12d4cad'
   end
   head 'https://github.com/mashiike/shimesaba.git'
 
