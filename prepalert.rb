@@ -1,13 +1,13 @@
 class Prepalert < Formula
-  version '0.3.1'
+  version '0.5.0'
   homepage 'https://github.com/mashiike/prepalert'
   if OS.mac?
-    url "https://github.com/mashiike/prepalert/releases/download/v0.3.1/prepalert_0.3.1_darwin_amd64.tar.gz"
-    sha256 '84df212812604d172882a91fe68b48c78f7b3ec4144007e0ea398fc01a616d35'
+    url "https://github.com/mashiike/prepalert/releases/download/v0.5.0/prepalert_0.5.0_darwin_amd64.tar.gz"
+    sha256 '0b3ec63ebfdde1275112aef8ecf936a3b26e67c574634736483ca10362af6034'
   end
   if OS.linux?
-    url "https://github.com/mashiike/prepalert/releases/download/v0.3.1/prepalert_0.3.1_linux_amd64.tar.gz"
-    sha256 '587d7ebcac638a6fa7641ad2433d19b2318080672e32b6f38093092db5b64eeb'
+    url "https://github.com/mashiike/prepalert/releases/download/v0.5.0/prepalert_0.5.0_linux_amd64.tar.gz"
+    sha256 'fb08c3aeb44fab2bf1c1ac700e44e6995d029a19c00eb2b642bbc53584c09937'
   end
   head 'https://github.com/mashiike/prepalert.git'
 
