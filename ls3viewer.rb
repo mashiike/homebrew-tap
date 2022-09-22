@@ -1,13 +1,13 @@
 class Ls3viewer < Formula
-  version '0.1.4'
+  version '0.2.0'
   homepage 'https://github.com/mashiike/ls3viewer'
   if OS.mac?
-    url "https://github.com/mashiike/ls3viewer/releases/download/v0.1.4/ls3viewer_0.1.4_darwin_amd64.tar.gz"
-    sha256 '9b164c7677831d2e0a063a5f2d609c0ac8ea5f7538901890de269d8d46b150fd'
+    url "https://github.com/mashiike/ls3viewer/releases/download/v0.2.0/ls3viewer_0.2.0_darwin_amd64.tar.gz"
+    sha256 '5863a9cfccb5b6f86e1cc9ae602d623b21973a4ea756bb681c59dd3ff66f53b7'
   end
   if OS.linux?
-    url "https://github.com/mashiike/ls3viewer/releases/download/v0.1.4/ls3viewer_0.1.4_linux_amd64.tar.gz"
-    sha256 '11ffea1484a2e9c24471d2586f5b1f923d056f0087a4a5cf6c9bc745f3171287'
+    url "https://github.com/mashiike/ls3viewer/releases/download/v0.2.0/ls3viewer_0.2.0_linux_amd64.tar.gz"
+    sha256 '5255dc964768ff57d31b3fb8db7ba8f509cb6ae984a8ab1d1e0dfc89a9695417'
   end
   head 'https://github.com/mashiike/ls3viewer.git'
 
