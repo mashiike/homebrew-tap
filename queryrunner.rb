@@ -19,6 +19,6 @@ class Queryrunner < Formula
     if build.head?
       system 'make', 'build'
     end
-    bin.install 'queryrunner'
+    bin.install 'query-runner'
   end
 end
