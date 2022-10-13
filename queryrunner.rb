@@ -1,13 +1,13 @@
 class Queryrunner < Formula
-  version '0.1.0'
+  version '0.1.1'
   homepage 'https://github.com/mashiike/queryrunner'
   if OS.mac?
-    url "https://github.com/mashiike/queryrunner/releases/download/v0.1.0/queryrunner_0.1.0_darwin_amd64.tar.gz"
-    sha256 '4a2ce3072446ce70973a71b6c88db5cb73d9bec427ff25532d0359915157b9c6'
+    url "https://github.com/mashiike/queryrunner/releases/download/v0.1.1/queryrunner_0.1.1_darwin_amd64.tar.gz"
+    sha256 '3864220bb904d9fcb5dc94157d1823cca1b0246be646985d66c6933929c90873'
   end
   if OS.linux?
-    url "https://github.com/mashiike/queryrunner/releases/download/v0.1.0/queryrunner_0.1.0_linux_amd64.tar.gz"
-    sha256 '5c1f7da4df31f665c9880269e6c0a9b37cc4f97802cebe30c3a245c92264fe42'
+    url "https://github.com/mashiike/queryrunner/releases/download/v0.1.1/queryrunner_0.1.1_linux_amd64.tar.gz"
+    sha256 'f67af57235b9136e3dafbbbc4667f2509e3ce09c89fb8b92a38a98355a9fc86c'
   end
   head 'https://github.com/mashiike/queryrunner.git'
 
