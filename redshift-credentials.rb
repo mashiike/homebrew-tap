@@ -1,17 +1,32 @@
 class RedshiftCredentials < Formula
-  version '0.1.2'
+  desc 'a command line tool for Amazon Redshift temporary authorization with AWS IAM '
+  version '0.2.0'
   homepage 'https://github.com/mashiike/redshift-credentials'
-  if OS.mac?
-    url "https://github.com/mashiike/redshift-credentials/releases/download/v0.1.2/redshift-credentials_0.1.2_darwin_amd64.tar.gz"
-    sha256 '2a0a570b905b8445f9915543950529670cd319604b7cd6a8ac57b001f56eb9c7'
+
+  on_macos do
+    if Hardware::CPU.arm?
+      url 'https://github.com/mashiike/redshift-credentials/releases/download/v0.2.0/redshift-credentials_0.2.0_darwin_arm64.tar.gz'
+      sha256 '84b743a51b206d7b41a8db41107e949f64b3e98bcba09086dd448a91e73cc943'
+    end
+    if Hardware::CPU.intel?
+      url 'https://github.com/mashiike/redshift-credentials/releases/download/v0.2.0/redshift-credentials_0.2.0_darwin_amd64.tar.gz'
+      sha256 '4fbb53dbb747b2225b6d7fee4a6cc936d25d6f6bd798b81f2d9b0b8565e64d4e'
+    end
   end
-  if OS.linux?
-    url "https://github.com/mashiike/redshift-credentials/releases/download/v0.1.2/redshift-credentials_0.1.2_linux_amd64.tar.gz"
-    sha256 'b64b60205f92bf23c1d530a655f8a670a68798a008b97bf3ee86dbd8c2db44a9'
+
+  on_linux do
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url 'https://github.com/mashiike/redshift-credentials/releases/download/v0.2.0/redshift-credentials_0.2.0_linux_arm64.tar.gz'
+      sha256 '3d1b9b4561786a0b564075589de2ee3e3c4eed6c7fb368145e2e9e9b5edf22a6'
+    end
+    if Hardware::CPU.intel?
+      url 'https://github.com/mashiike/redshift-credentials/releases/download/v0.2.0/redshift-credentials_0.2.0_linux_amd64.tar.gz'
+      sha256 'cc868444ec8042d08acb4f786205c089931d048c0128cf63480c9670dbb1302e'
+    end
   end
-  head 'https://github.com/mashiike/redshift-credentials.git'
 
   head do
+    url 'https://github.com/mashiike/redshift-credentials.git'
     depends_on 'go' => :build
   end
 
