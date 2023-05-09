@@ -1,27 +1,27 @@
 class Prepalert < Formula
   desc 'Toil reduction tool to prepare before responding to Mackerel alerts'
-  version '0.10.1'
+  version '0.10.2'
   homepage 'https://github.com/mashiike/prepalert'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.1/prepalert_0.10.1_darwin_arm64.tar.gz'
-      sha256 'a8f48e5e16f09c9066a321fa0ff868d298294e53a50b7bd7afefd481098a9334'
+      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.2/prepalert_0.10.2_darwin_arm64.tar.gz'
+      sha256 'cc09ec94f99b9f9af1d043fa9d70bfa69f4255adb80c1caf9c88aa8dc78291ed'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.1/prepalert_0.10.1_darwin_amd64.tar.gz'
-      sha256 '30df5cb10385464f8cdb2d55c6cb8c330089238acb3c3535a9468ca36b81ea91'
+      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.2/prepalert_0.10.2_darwin_amd64.tar.gz'
+      sha256 '0731d1d980be8810a254934ef8c062ae7b4d1eac9283d500ec261341fa095a78'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.1/prepalert_0.10.1_linux_arm64.tar.gz'
-      sha256 '3d95804c56c37f3aef47b5236f84b11ca10ffe2249f02855e8099dba58505a36'
+      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.2/prepalert_0.10.2_linux_arm64.tar.gz'
+      sha256 'a12adac774ab3efdec807dbf13c05f8a31db0c21930175de9d1d60765883428d'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.1/prepalert_0.10.1_linux_amd64.tar.gz'
-      sha256 '92b4f833f7f442053e0b29184e43de89f3af20b73e5e39d1426a4e11d8ec2031'
+      url 'https://github.com/mashiike/prepalert/releases/download/v0.10.2/prepalert_0.10.2_linux_amd64.tar.gz'
+      sha256 '8fa97e9db3eea7a5da597248e9cad87c278258f21a806f271385dd9fa5c80b55'
     end
   end
 

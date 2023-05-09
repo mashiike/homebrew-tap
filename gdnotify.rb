@@ -1,27 +1,27 @@
 class Gdnotify < Formula
   desc 'google drive change notifier for AWS'
-  version '0.4.0'
+  version '0.4.2'
   homepage 'https://github.com/mashiike/gdnotify'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.0/gdnotify_0.4.0_darwin_arm64.tar.gz'
-      sha256 'fd5ff3babbd23db48b0506b25013f8fc673ffe5bc29ddee0a119d37f8236999a'
+      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.2/gdnotify_0.4.2_darwin_arm64.tar.gz'
+      sha256 '25ad5d3ced6ae0c45a190e4e345f901fa299487162ee54245b477f077646697d'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.0/gdnotify_0.4.0_darwin_amd64.tar.gz'
-      sha256 '3bcdae739ef9fab688853f2a5349c35a1b766fb0a88a435c607ceab4df853fd5'
+      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.2/gdnotify_0.4.2_darwin_amd64.tar.gz'
+      sha256 '6d2cd08deb0171045e557eed46ad3ad64f775d4dfcda82c0c9ed3d9b2cae1341'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.0/gdnotify_0.4.0_linux_arm64.tar.gz'
-      sha256 'bc2be6a5b464ccea5f2886057a5924901fa9a3448564e45ea3d6fc022878465f'
+      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.2/gdnotify_0.4.2_linux_arm64.tar.gz'
+      sha256 '26d9492d4e6d71e8d6baf2704a3b0abf3755c981d5a90dc6ec7eb8924194e57a'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.0/gdnotify_0.4.0_linux_amd64.tar.gz'
-      sha256 '8f07fce567cd35853ab4949f351cee6d2b47b827213c2dc602be69cdeff2149c'
+      url 'https://github.com/mashiike/gdnotify/releases/download/v0.4.2/gdnotify_0.4.2_linux_amd64.tar.gz'
+      sha256 'e863b66d035377733a235d821247a422ff8a118520d3ab41cf0430abf539dd97'
     end
   end
 

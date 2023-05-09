@@ -1,26 +1,26 @@
 class Queryrunner < Formula
-  version '0.3.0'
+  version '0.3.1'
   homepage 'https://github.com/mashiike/queryrunner'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.0/queryrunner_0.3.0_darwin_arm64.tar.gz'
-      sha256 'fd8c34473d256a2b34ce05515fd53feea17e091e965486e52fe01841916e5a84'
+      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.1/queryrunner_0.3.1_darwin_arm64.tar.gz'
+      sha256 '0a3700425011153dfff56d2cd415cdac0f9dc5316939638d181f3a3316fa7fce'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.0/queryrunner_0.3.0_darwin_amd64.tar.gz'
-      sha256 '50da6efda4f8e0465c96924404ab4cb9e94161f913e48d70b0938024ea70bc11'
+      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.1/queryrunner_0.3.1_darwin_amd64.tar.gz'
+      sha256 '837b29a48720590b5d13eb0701ee798c7ad0d01796775332d8218020f6ae1c94'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.0/queryrunner_0.3.0_linux_arm64.tar.gz'
-      sha256 'c028d560047053f3620ab3fc915646174dd8e1fdddd53f57f78716deb6e829b0'
+      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.1/queryrunner_0.3.1_linux_arm64.tar.gz'
+      sha256 '883fe075c484369631e82c653830401e8633cc174c93f19c5bd5451c5954a344'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.0/queryrunner_0.3.0_linux_amd64.tar.gz'
-      sha256 '9e1adf7aea805787bda8b02ff8e79cf162e7faa99bbf395b19b6a618c76e47c6'
+      url 'https://github.com/mashiike/queryrunner/releases/download/v0.3.1/queryrunner_0.3.1_linux_amd64.tar.gz'
+      sha256 'd2d37bbc640e49abcb01f800a9152c142600bbed7b2cb6f5d630f9e4625f4d46'
     end
   end
 
