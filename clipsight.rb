@@ -1,27 +1,27 @@
 class Clipsight < Formula
   desc 'Tools to share some QuickSight dashboards outside'
-  version '0.2.3'
+  version '0.2.4'
   homepage 'https://github.com/mashiike/clipsight'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.3/clipsight_0.2.3_darwin_arm64.tar.gz'
-      sha256 'd844b02eba6f05823d2c604ee057cd54a345665943f10a37d2a166047a2b82c3'
+      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.4/clipsight_0.2.4_darwin_arm64.tar.gz'
+      sha256 '356561db4036b0fbcefe15431724f876b6ce9ddd8c4b2b58f3a06bfac785ccef'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.3/clipsight_0.2.3_darwin_amd64.tar.gz'
-      sha256 '6dfe1f5aa8c300909ad45d1b104fced6e3d6aea11258361e50d1f88d38d899f4'
+      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.4/clipsight_0.2.4_darwin_amd64.tar.gz'
+      sha256 '0de6e6700544d7d21b06bad9e18b2322d6873c291484188d0416a6e4e2b36bf7'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.3/clipsight_0.2.3_linux_arm64.tar.gz'
-      sha256 '4c083e19a8277c5f9866ac038d81a19a5eb08b28a4689c5d1a6bdceab2cf3448'
+      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.4/clipsight_0.2.4_linux_arm64.tar.gz'
+      sha256 'f473cb78e952be49435de576d2b9c3222c443d6a7082873b0148cc642de881e8'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.3/clipsight_0.2.3_linux_amd64.tar.gz'
-      sha256 '3cda33172fd91063c6781f040a1e753075848c0e8adf1aa6a4c44775caf424ed'
+      url 'https://github.com/mashiike/clipsight/releases/download/v0.2.4/clipsight_0.2.4_linux_amd64.tar.gz'
+      sha256 '29de9326d76d291db722d99d37340e29a5f6df4560733469502b226116d7c399'
     end
   end
 
