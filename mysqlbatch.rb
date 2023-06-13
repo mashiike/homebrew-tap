@@ -1,27 +1,27 @@
 class Mysqlbatch < Formula
   desc 'simple mysql client for batch mode. this is one binary command with golang.'
-  version '0.5.0'
+  version '0.6.1'
   homepage 'https://github.com/mashiike/mysqlbatch'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.5.0/mysqlbatch_0.5.0_darwin_arm64.tar.gz'
-      sha256 'c06b76822c7344ef29ed34347773a1bde93925fcfa94e1a1c91624f21e839a11'
+      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.6.1/mysqlbatch_0.6.1_darwin_arm64.tar.gz'
+      sha256 'eccad01094bef121edf9876295a4ce7782c954e42e4bc614218c40472ca66acc'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.5.0/mysqlbatch_0.5.0_darwin_amd64.tar.gz'
-      sha256 'ef58bfac00344b97127f9464b6f229a0820c44daef5313e146757441e9b0a799'
+      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.6.1/mysqlbatch_0.6.1_darwin_amd64.tar.gz'
+      sha256 '4804778f9d6aa8c9bc7770066168e9c50a09461567794a160849616c3e016d01'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.5.0/mysqlbatch_0.5.0_linux_arm64.tar.gz'
-      sha256 '0ebd4077866c0761b350f9c5bf20535e509c1a6475136b069685d888d8b80e55'
+      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.6.1/mysqlbatch_0.6.1_linux_arm64.tar.gz'
+      sha256 '4823982d12baaa85fce4636ada9daf1e30d305c746dcff8ee9fb0448b248ca9b'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.5.0/mysqlbatch_0.5.0_linux_amd64.tar.gz'
-      sha256 '85bd8da59d6d7d3db484d3f36566286f9b4e681898c785e93d4e8530895d991e'
+      url 'https://github.com/mashiike/mysqlbatch/releases/download/v0.6.1/mysqlbatch_0.6.1_linux_amd64.tar.gz'
+      sha256 '88c1e1b15b3cce688eeda94de7a7372ed16cda8431a38a229b035555f330cee8'
     end
   end
 
