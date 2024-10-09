@@ -1,27 +1,27 @@
 class Ls3viewer < Formula
   desc 'lambda s3 viewer'
-  version '0.2.0'
+  version '0.3.0'
   homepage 'https://github.com/mashiike/ls3viewer'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.2.0/ls3viewer_0.2.0_darwin_arm64.tar.gz'
-      sha256 'abf4505eea95aed0160339d47828608aba36030160322e7fe1785302f8903e38'
+      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.3.0/ls3viewer_0.3.0_darwin_arm64.tar.gz'
+      sha256 'd6546ac1b09782c13f64e2efedb480f541c9389d8c31e0ba380cf8adfa711a60'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.2.0/ls3viewer_0.2.0_darwin_amd64.tar.gz'
-      sha256 '5863a9cfccb5b6f86e1cc9ae602d623b21973a4ea756bb681c59dd3ff66f53b7'
+      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.3.0/ls3viewer_0.3.0_darwin_amd64.tar.gz'
+      sha256 'c39385752d09fb643ce4dbf52d7b2a2a769bbeab547e8b3b58cf0e7297591e42'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.2.0/ls3viewer_0.2.0_linux_arm64.tar.gz'
-      sha256 '1cc621f078a6c6fcfc25a233d774f1e9746b81fea08386098548baa20f9e0a0b'
+      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.3.0/ls3viewer_0.3.0_linux_arm64.tar.gz'
+      sha256 '6e3223e3f90a1c6e8f2d368d2dce3bb1b7c643e8bc4ece5d500fd5b0d36fe41e'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.2.0/ls3viewer_0.2.0_linux_amd64.tar.gz'
-      sha256 '5255dc964768ff57d31b3fb8db7ba8f509cb6ae984a8ab1d1e0dfc89a9695417'
+      url 'https://github.com/mashiike/ls3viewer/releases/download/v0.3.0/ls3viewer_0.3.0_linux_amd64.tar.gz'
+      sha256 '0ddf14ab29025d20578040f7107a130da1367acedbf719c7aa6ccbce43eac633'
     end
   end
 

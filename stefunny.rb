@@ -1,26 +1,26 @@
 class Stefunny < Formula
-  version '0.6.0'
+  version '0.9.2'
   homepage 'https://github.com/mashiike/stefunny'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/stefunny/releases/download/v0.6.0/stefunny_0.6.0_darwin_arm64.tar.gz'
-      sha256 'd76e8600c7066566d9c6900a8b2ab7d7b96acb4b0e2036ae1886273b0f20d72f'
+      url 'https://github.com/mashiike/stefunny/releases/download/v0.9.2/stefunny_0.9.2_darwin_arm64.tar.gz'
+      sha256 '4fb20a03bfca5ab3eb34ca77a4f1026c523ee85ef2207e4d2f7061d6f419f44e'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/stefunny/releases/download/v0.6.0/stefunny_0.6.0_darwin_amd64.tar.gz'
-      sha256 '8057ef4755606e6fc35933b37f2b635c8c8e933cc101fbfb79c5c3a640de0013'
+      url 'https://github.com/mashiike/stefunny/releases/download/v0.9.2/stefunny_0.9.2_darwin_amd64.tar.gz'
+      sha256 '37a6976c5f0f84eb7a6592561268c7ce27058bf8c0ec96cbfe99e46177b86c55'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/stefunny/releases/download/v0.6.0/stefunny_0.6.0_linux_arm64.tar.gz'
-      sha256 '43e65572d17cad746d452d8108bafe52c1d5e611115fb93c83f254269296cde2'
+      url 'https://github.com/mashiike/stefunny/releases/download/v0.9.2/stefunny_0.9.2_linux_arm64.tar.gz'
+      sha256 '0eff95e494ab601e36b204e7fb59d85d9ed0989558ab13796d398144ee8d786a'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/stefunny/releases/download/v0.6.0/stefunny_0.6.0_linux_amd64.tar.gz'
-      sha256 '3c2da52fe16b0ddfaeaeaa1d9654439173b9182b3d7aec49826ca0b8411d52f5'
+      url 'https://github.com/mashiike/stefunny/releases/download/v0.9.2/stefunny_0.9.2_linux_amd64.tar.gz'
+      sha256 '6e912b4c123273176ae560edd29390e0543d18950a41d7f4a4b7924f33ec891f'
     end
   end
 
