@@ -34,5 +34,6 @@ class Oteleport < Formula
       system 'make', 'build'
     end
     bin.install 'oteleport'
+    bin.install 'oteleport-client'
   end
 end
