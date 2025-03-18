@@ -1,27 +1,27 @@
 class Actionspin < Formula
   desc 'Bulk replace GitHub Actions references from version tags to commit hashes for locked, reproducible workflows.'
-  version '0.1.0'
+  version '0.1.1'
   homepage 'https://github.com/mashiike/actionspin'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.0/actionspin_0.1.0_darwin_arm64.tar.gz'
-      sha256 '9e988083f3d8706ff61d2cfe82ecd1a8d1b1135335eeaac5f324a380b04b98c2'
+      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.1/actionspin_0.1.1_darwin_arm64.tar.gz'
+      sha256 'ec325588fd52b67ca40361e7f7238c60e04ce895fd94753d61d0ce75545918b4'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.0/actionspin_0.1.0_darwin_amd64.tar.gz'
-      sha256 '34bd39dc069fa9ad452398e4465a8e193eb59d0ca4983365d3f9fc90408cba4d'
+      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.1/actionspin_0.1.1_darwin_amd64.tar.gz'
+      sha256 'ee87187fde11ab0afddf9d728658d4bd5013f17f3f2374164980a04303f8d72d'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.0/actionspin_0.1.0_linux_arm64.tar.gz'
-      sha256 'fd2e7ae7b186edeb86f0297d4be8c411b9f7b3b413e7805d23b908a3507db3bc'
+      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.1/actionspin_0.1.1_linux_arm64.tar.gz'
+      sha256 '61311609107c6b3dd6083705d230b18f09796c0b32685de5bf646c7d6617cb1c'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.0/actionspin_0.1.0_linux_amd64.tar.gz'
-      sha256 '9525d3f81c04068e466f4d334934d1e714ef1ed9a60f564fe05bf87e310e8506'
+      url 'https://github.com/mashiike/actionspin/releases/download/v0.1.1/actionspin_0.1.1_linux_amd64.tar.gz'
+      sha256 'aa72d8ef0d2a63f2591e4b3c07c89869ed3fe21c5704573ea95f0a5c155c19f2'
     end
   end
 
