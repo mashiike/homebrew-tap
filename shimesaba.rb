@@ -1,27 +1,27 @@
 class Shimesaba < Formula
   desc 'Mackerel SLI/SLO tools, Tools that run periodically (e.g., every 10 minutes)'
-  version '1.4.3'
+  version '1.4.4'
   homepage 'https://github.com/mashiike/shimesaba'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.3/shimesaba_1.4.3_darwin_arm64.tar.gz'
-      sha256 '3e3076de6ba9ce2192629c007a03909455dddf36b44286949d31d653a2f49e8c'
+      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.4/shimesaba_1.4.4_darwin_arm64.tar.gz'
+      sha256 '9db8bd1cd31b604817c7efae204b58732589fedaa04428cb92c95764faac8900'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.3/shimesaba_1.4.3_darwin_amd64.tar.gz'
-      sha256 '1ee4d4d5e64c2122a191c639d00d4ac79245128fba4cfac125a02ce9054403f4'
+      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.4/shimesaba_1.4.4_darwin_amd64.tar.gz'
+      sha256 '9f6cec69cd607715e66259f4c2819037ee40522a33440cd7f48283b93b8d8e41'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.3/shimesaba_1.4.3_linux_arm64.tar.gz'
-      sha256 'da535d025a9904d9492de6cff3794701d4fbc5deeff76c1ea057ad4cc4ae2c26'
+      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.4/shimesaba_1.4.4_linux_arm64.tar.gz'
+      sha256 '03a74ef0d875e9ba05f6a0bee9fc16e1babe09a90f1d1ed56c3e2d92d618478a'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.3/shimesaba_1.4.3_linux_amd64.tar.gz'
-      sha256 '70caf8331d95d246e95ad48419cdaee3d98a775232802410d1bcfd76ea50c9dc'
+      url 'https://github.com/mashiike/shimesaba/releases/download/v1.4.4/shimesaba_1.4.4_linux_amd64.tar.gz'
+      sha256 '6bb79bf2a3a30a4b1bbccb946da83577c980847de7ff871931e724eb71900ac0'
     end
   end
 
